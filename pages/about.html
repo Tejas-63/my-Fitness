@@ -4,94 +4,162 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>about</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 120vh; 
+            /* Replace with your image URL */
+            background-size: cover; 
+            background-repeat: no-repeat;
+         }
+        .navbar{
+            padding-bottom: 18px;
+            align-items: center;
+            display: flex;
+            font-size: large;
+            background-color: rgb(222, 186, 119);
+            color: #f0f8ff;
+            position: fixed;
+            width: 100%;
+            height: 42px;
+            top: 0;
+            z-index: 100%;
+        }
+        .menus{
+            margin-left:400px;
+            font-size: 20px;
+            padding-right: 20px;
+            margin-top: 7px;
+            color: #f0f8ff;
+        }
+        
+        .search{
+          font-size: 25px;
+          margin-left:300px ;
+          margin-top: 7px;
+        }
+        .menu-item{
+      color: #f0f8ff;
+    text-decoration: none;
+    font-size: 20 px;
+      margin: 0 10px;
+        }
+        .menu-item:hover{
+            text-decoration: underline;
+        }
+        .search-box{
+            padding: 6px 21px;
+            border-radius: 30px;
+            border: none;
+        }
+        .logo{
+height: 59px;
+width: 60px;
+padding-top: 20px;
+border-radius: 200px;
+margin-left: 1px;
+        }
+        .brand{
+            padding-bottom: 20px;
+            align-items: center;
+            display: flex;
+            
+            background-color: rgb(209, 156, 92);
+            color: #f0f8ff;
+            position: fixed;
+            width: 100%;
+            height: 42px;
+            top: 0;
+            z-index: 100%;
+        }
+        .heading{
+           margin-bottom: 0px ;
+           padding-top: 950px;
+            font-size: 35px;
+            color: #151516;
+            z-index: 50;
+            margin-left: 300px;
+            margin-top: 20px;
+        }
+        .adout-img{
+            margin-top: 20px;
+            padding-top: 00px;
+            height: 650px;
+            width: 2000px;
+        position: ;
+        border: #3d3d3d 10px solid;
+        
+        }
+        .spacial-body{
+            
+            background-color: aqua;
+            margin-bottom:00px;
+            position: sticky;
+            height: 130px;
+            border-radius: 50px aqua;
+
+            
+        }
+        
+        .speacial-details{
+            display: flex;
+            justify-content:center ;
+    font-size: 40px;
+    margin-bottom;:100px auto;
+    
+
+        }
+        .speacial-details-key{
+            text-align: center;
+            margin-top: 30px;
+            color: rgb(248, 245, 245);
+    width: 30%; 
+        }
+        .speacial-details-value{
+            text-align: center;
+            font-weight:bold ;
+    border-bottom: 1px dashed gray;
+    width: 30px;
+    margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    <div>
-        <a href="./../index.html">Home </a>
-    &nbsp;| &nbsp;
-       <a href="about.html"><b>About</b></a>
-     &nbsp;| &nbsp;
-      <a href="contact.html">contact</a>
-</div>
-
-    <h1>About</h1>
-    <p>
-        <b>
-    </p>
-       <h2> WELCOM.... TEJAS FITNESS🏋️</h2>
-        </b>
-    </p>
-    <div>
-        <hr/>
-        <b>
-        <p>speciality</p>
-        </b>
-    
-        Bench Press,Cardio,Crossfit
-        Personal Training,Deadlifiting,
-        Lat Pull Down,Dumbbell,Tricep Dips,
-        Strength & HIIT Training
-    </div>
-    <div>
+    <div class="navbar">
         
-        <hr/>
-        <b>
-        <p>GYM area</p>
-        </b>
-        &nbsp;
-        two flour..1st flour cardio machine
-        2nd flour strength, Bench press & machin's
-
-       <img src="https://tse4.mm.bing.net/th?id=OIP.1UYWT-fpp-_uz6a4Z-z32QHaD4&pid=Api&P=0&h=220"
-       height="250"
-       width="260px"/>
-       <img src="https://tse4.mm.bing.net/th?id=OIP.bZeoRTFRCp6LcoH6HEfp2AHaGJ&pid=Api&P=0&h=220"
-       height="250"/>
-    </div>
-    <div>
-        <hr/>
-        <b>
-            <p>Traner</p>
-        </b>
-        <img src="https://tse4.mm.bing.net/th?id=OIP.rAwmsGAUJdVyImxri8RlawHaE8&pid=Api&P=0&h=220"
-        height="250px"
-        width="300"/>
-             if you avoid a Personal trenner are there
-              extra fees
-             if you not Personal trening. are the gym trennar
-              can be help to your workout day shedual
-
-    </div>
-    <div>
-        <hr/>
-        <b>
-            <p>Working Hour</p>
-        </b>
-        Mon-Sat: 6am - 10pm
-        sun:close
-    </div>
-    <div>
-        <hr/>
-        <b>
-            <p>price</p>
-        </b>
-             yearly:1800
-             Half:11500
-             Quarterlly:8500
-             Monthly:3500
-             Crossfit:3500
-             Trial fees(One Day): 500
-    </div>
-        <hr>
-        <a href="">
-           Back to top
-        </a>
+        <div class="brand">
+        <img src="./../logo/gym logo.jpg"class="logo"atr="gym logo">
+        <h2 class="head" head>My Fitness</h2>
+        
+        <div class="menus">
+            <a href="./../index.html"class="menu-item">Home</a>
+            <a href="./../pages/about.html" class="menu-item">About Me</a>
+            <a href="./../pages/contact.html" target="_blank"class="menu-item">Contact</a> 
+        </div>
+        <div class="search">
+           <input type="text"placeholder="Search" class="search-box"/>
+        </div>
+  </div>  
+  <section class="section">
     
-    <div>
-        <hr/>
-        <a href="./../pages/contact.html" traget="_blank">
-            contact now...
-        </a>
-    </div>
+    <h1 class="heading">Tejas Fitness Center</h1>
+
+
+    <img src="./../img/about viwesjpg.jpg" class="adout-img"/>
+
+   
+    
+    <div class="spacial-body">
+        
+            
+        </h3>
+        <div class="speacial-details">
+            <div class="speacial-details-key">
+                speacial DIsccount &nbsp;|| 20%of
+            </div>
+                
+            <div class="speacial-details-value"></div>
+       
 </body>
 </html>
